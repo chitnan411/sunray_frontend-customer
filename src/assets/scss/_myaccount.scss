@@ -1,0 +1,665 @@
+// body {
+//     margin: 0;
+//     color: #333c2a;
+//     // font-family: "Josefin Sans";
+//     font-family: "SulSans-Regular";
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//   }
+  
+//   .mt-2.5 {
+//     margin-top: 2.5px;
+//   }
+  
+//   code {
+//     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+//   }
+//   .default {
+//     // font-family: "Josefin Sans";
+//     font-family: "SulSans-Regular";
+//   }
+//   .power-zone {
+//     // font-family: "Source Sans Pro";
+//     font-family: "SulSans-Regular";
+//   }
+//   .otc {
+//     // font-family: "Josefin Sans";
+//     font-family: "SulSans-Regular";
+//   }
+//   .bg-pz-primary {
+//     background: $pzMainColor;
+//   }
+//   .bg-pz-secondary {
+//     background: $pzSecondaryColor;
+//   }
+//   .cursor-pointer {
+//     cursor: pointer;
+//   }
+  
+//   .container {
+//     .otc & {
+//       @media (min-width: 1240px) {
+//         max-width: 1200px;
+//       }
+//     }
+//   }
+//   .content-light {
+//     p {
+//       font-weight: 300;
+//     }
+//   }
+  
+  .breadcrumb {
+    font-size: 14px;
+    background: #f8f9fa;
+    &-item {
+      a {
+        color: $secondary;
+      }
+    }
+  }
+  .w-0 {
+    width: 0;
+    height: 0;
+  }
+  .w-200 {
+    width: 200px;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .autocomplete-dropdown-container {
+    &:empty {
+      display: none;
+    }
+  }
+  
+  .badge-div {
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    background-color: #c61932;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .badge-text {
+    font-size: 8px;
+    color: #fff;
+  }
+  
+  .review-div {
+    max-height: 800px;
+    overflow: auto;
+  }
+  
+  .product-cart-width{
+    width: 345px;
+  }
+  
+  .cart-margin-bottom {
+    margin-bottom: 0.5rem;
+  }
+  
+  .offerPrice{
+    font-size: 13px;
+    color: #fff;
+  }
+  .offer-div-ind-product {
+    // background: #c61932;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    // left: 28;
+    // top: 0;
+  }
+  
+  .quanitity-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ccc;
+      padding: 4px 0;
+      border: 1px solid #787878;
+  }
+  
+  .quantity-text{
+    font-size: 12px;
+  }
+  
+  .accountPage {
+    .accountAccount{
+      border-bottom: 1px solid #d4d5d9;
+      padding: 15px 0px;
+      font-size: 12px;
+  
+      .accountHeading{
+        font-size: 18px;
+        font-weight: 800;
+      }
+    }
+  
+    .sidebarSidebar {
+      vertical-align: top;
+      /* border-right: 1px solid #d4d5d9; */
+      text-align: left;
+      padding: 19px 25px 2px 27px !important;
+      font-size: 15px;
+      background: white;
+      box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 6px 10px 0 rgba(0,0,0,0.19);
+      border-radius: 6px;
+    //box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 9px 13px 0 rgba(0,0,0,0.19);
+      
+      .segmentSegment:first-child {
+        border-top: none;
+      }
+  
+      .segmentSegment {
+        border-top: 1px solid #d4d5d9;
+        padding: 2px 0px;
+        width: 100%;
+  
+        a {
+          color: #012835;
+          text-decoration: none;
+          background-color: transparent;
+        }
+        .segmentLink {
+          display: block;
+          margin: 15px 0px;
+        }
+        .segment-heading {
+          color: #7e818c;
+          font-size: 12px;
+          text-transform: uppercase;
+          padding: 10px 0px;
+        }
+        .segment-segment:first-child {
+          border-top: none;
+        }    
+        .segment-activeLink {
+          color: #06A4F0;
+          font-weight: 800;
+        }
+      }
+    }
+  
+    .page-fullWidthComponent{
+      font-size: 14px;
+      box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 6px 10px 0 rgba(0,0,0,0.19);
+      border-radius: 6px !important;
+  
+      // profile
+      .personPerson{
+        background-color: white;
+        //margin-bottom: 35px;
+        border-bottom: 2px solid #5b5858;
+  
+        .person-background{
+          position: relative;
+          //background: #dffdff;
+          //box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 6px 10px 0 rgba(0,0,0,0.19);
+          border-radius: 6px;
+          height: 180px;
+          padding: 25px 30px;
+  
+          .person-infoWrapper{
+            text-align: center;
+  
+            .person-imageHolder{
+              
+              .person-defaultImage
+              {
+                height: 130px;
+                width: 20%;
+                float: left;
+                // position: absolute;
+                // top: 45%;
+                // left: 50%;
+                background-image: url(https://constant.myntassets.com/mymyntra/assets/img/default-image.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+              }
+            }
+            .person-infoHolder{
+              // height: 130px;
+              width: auto;
+              float: right;
+              display: inline;
+              text-align: left;
+              // left: 190px;
+              // right: 30px;
+              // display: none;
+  
+              .person-editProfile{
+                display: inline-block;
+                float: right;
+                cursor: pointer;
+                font-weight: bold;
+                border: 1px solid #012835;
+                padding: 4px 19px !important;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 11px;
+                text-align: center;
+                background-color: #012835;
+              }
+  
+              .person-name {
+                font-weight: 800;
+                font-size: 23px;
+                text-transform: capitalize;
+                color: #3E4152;
+              }
+            }
+          }
+        }
+      }
+  
+      .dashboardData{
+        width: 100%;
+        position: relative;
+  
+        .dashboard-squareContainer{
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          
+          a{
+            text-decoration: none;
+            color: #282C3F !important;
+          }
+  
+          .linkCard{
+            height: 200px;
+            cursor: pointer;
+            padding: 16px;
+            //background: #dffdff;
+            display: block;
+            //box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 6px 10px 0 rgba(0,0,0,0.19);
+            padding: 12px;
+            text-align: center;
+            //border: 0.5px solid #060000;
+            //border-radius: 5px;
+            margin-top: 25px;
+  
+            .linkContent{
+              top: 50%;
+              left: 0;
+              right: 0;
+              padding: 33px 15px;
+  
+              .link-icon{
+                display: block;
+                margin: auto;
+                opacity: 1;
+                width: 32px;
+                position: unset;
+              }
+              .link-labels{
+                width: 100%;
+                margin-left: 0px;
+  
+                .link-label{
+                    margin-top: 18px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    margin-bottom: 4px;
+                  }
+                .link-subLabel{
+                    font-size: 12px;
+                    color: #94969F;   
+                  }
+                }
+            }
+          }
+        }
+      }
+  
+      .dashboard-logoutButton {
+        cursor: pointer;
+        width: 30%;
+        text-transform: uppercase;
+        padding: 15px;
+        text-align: center;
+        font-weight: 800;
+        background-color: #06A4F0;
+        margin: 30px 10px 30px 10px;
+        border: 1px solid #d4d5d9;
+        color: white;
+        border-radius: 5px;
+      }
+      
+      //orders
+      .page-listBackground {
+        //background-color: #dffdff;
+        //padding : 10px;
+        .no-order{
+          padding: 9rem 0 15rem 0 !important;
+        }
+        .itemView{
+          height: auto;
+          background: #ffffff;
+          padding: 0 3.37% 19px 3.33%;
+          margin-bottom: 29px;
+
+
+          .item-itemStatus{
+            margin: 0px 0 8px 0;
+            width: 100%;
+  
+            .itemStatus{
+              flex-direction: column;
+              padding-top: 16px;
+              display: flex;
+  
+              .itemDetailsContainer{
+                height: 89px !important;
+                display: flex;
+                align-items: flex-start;
+  
+                .itemDetails{
+                  padding-right: 12px;
+                  padding-left: 12px;
+                  display: flex;
+                  flex-direction: column;
+  
+                  .itemTitle{
+  
+                    .Text-Text{
+                      font-size: 14px;
+                      line-height: 1;
+                      text-transform: capitalize;
+                      font-weight: 500;
+                    }
+                  }
+  
+                  .dateTime{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: #696e79;
+                  }
+                }
+              }
+            }
+          }
+  
+          .item-itemInfoList{
+            width: 100%;
+            position: relative;
+            overflow-x: hidden;
+            background-color: #dffdff;
+            display: flex;
+            padding: 12px;
+            flex-direction: column;
+            text-align: left;
+            margin-bottom: 9px;
+            border-radius: 9px;
+  
+            .Product-imageAndDetails{
+              display: flex;
+              position: relative;
+              margin-bottom: 5px;
+  
+              .Product-thumbnail{
+                border: 1px solid #edeeef;
+                position: relative;
+                border-radius: 2px;
+              }
+              .Product-content{
+                margin-left: 25px;
+                margin-top: auto;
+                margin-bottom: auto;
+              }
+            }
+          }
+        }
+      }
+  
+      // coupons
+      .couponCard{
+        border: 0.5px solid #d4d5d9;
+        border-radius: 2px;
+        background-color: white;
+        padding: 0% 2%;
+        margin-bottom: 10px;
+        color: #282C3F;
+  
+        .couponCardImage{
+          height: 90px;
+          display: inline-block;
+          vertical-align: top;
+          text-align: center;
+          width: 29%;
+          max-width: 100px;
+          color: #14cda8;
+          border-right: 1px solid #d4d5d9;
+          background: url(https://constant.myntassets.com/mymyntra/assets/img/sprite-5.png) no-repeat;
+          background-position: -362px -380px;
+  
+          .coupon-amount{
+            margin: 30px 0px 4px 0px;
+            font-weight: 600;
+            font-size: 16px;
+          }
+  
+          .coupon-offText{
+            font-weight: 800;
+            font-size: 18px;
+            text-align: center;
+            color: '#06A4F0';
+          }
+        }
+  
+        .coupon-info{
+          padding: 20px 0px 10px 10px;
+          display: inline-block;
+          width: 64%;
+  
+          .couponPurchaseInfo{
+            margin: 10px 0px;
+          }
+  
+          .couponLabel{
+            color: #7e818c;
+          }
+          .couponCode{
+            text-transform: uppercase;
+          }
+        }
+  
+        .coupon-couponDetail{
+          border-top: 1px solid #d4d5d9;
+          padding: 15px 0px;
+  
+          ul{
+            margin: 10px 0px 0px -22px;
+          }
+  
+          .couponExpiryDate {
+            font-weight: 800;
+            color: #696E79;
+            border-right: 1px solid #d4d5d9;
+            padding-right: 5px;
+          }
+          .couponDetails {
+            cursor: pointer;
+            float: right;
+            font-weight: 800;
+            color: #526cd0;
+          }
+        }
+      }
+  
+      //address
+      .addAddressBarCardWrapper{
+        height: 40px;
+  
+        .addAddressBarHeading{
+          display: inline-block;
+          font-size: 18px;
+          font-weight: 800;
+          margin-top: 8px;
+        }
+        .addAddressBarCard{
+          box-shadow: 0px 0px 0px;
+          display: inline-block;
+          float: right;
+          border: 0.5px solid #d4d5d9;
+          border-radius: 4px;
+          text-transform: uppercase;
+          font-weight: 800;
+          color: #526cd0;
+          padding: 12px;
+          text-align: center;
+          width: 180px;
+          margin: auto;
+          cursor: pointer;
+  
+          .addAddressBarAddText{
+            display: inline-block;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #526cd0;
+          }
+        }
+      }
+    }
+  }
+  
+  // edit profile
+  .pageProfile{
+    margin:15px;
+  
+    .profileEdit-card{
+      background-color: white;
+      text-align: justify;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+      padding: 24px 0;
+      border: 1px solid #d4d4d9;
+  
+  
+      .profileEdit-infoLabel {
+        color: #282C3F;
+        font-weight: 600;
+        font-size: 20px;
+        border-bottom: 1px solid #eaeaec;
+        margin: 0;
+        padding: 0 24px 24px 24px;
+    }
+    }
+  }
+  
+  
+  
+  
+  
+  .couponCard{
+    border: 0.5px solid #d4d5d9;
+    border-radius: 2px;
+    background-color: white;
+    padding: 0% 2%;
+    margin-bottom: 10px;
+    color: #282C3F;
+  
+    .couponCardImage{
+      height: 90px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      width: 29%;
+      max-width: 100px;
+      color: #14cda8;
+      border-right: 1px solid #d4d5d9;
+      background: url(https://constant.myntassets.com/mymyntra/assets/img/sprite-5.png) no-repeat;
+      background-position: -362px -380px;
+  
+      .coupon-amount{
+        margin: 30px 0px 4px 0px;
+        font-weight: 600;
+        font-size: 16px;
+      }
+  
+      .coupon-offText{
+        font-weight: 800;
+        font-size: 18px;
+        text-align: center;
+        color: '#06A4F0';
+      }
+    }
+  
+    .coupon-info{
+      padding: 20px 0px 10px 10px;
+      display: inline-block;
+      width: 64%;
+  
+      .couponPurchaseInfo{
+        margin: 10px 0px;
+      }
+  
+      .couponLabel{
+        color: #7e818c;
+      }
+      .couponCode{
+        text-transform: uppercase;
+      }
+    }
+  
+    .coupon-couponDetail{
+      border-top: 1px solid #d4d5d9;
+      padding: 15px 0px;
+  
+      ul{
+        margin: 10px 0px 0px -22px;
+      }
+  
+      .couponExpiryDate {
+        font-weight: 800;
+        color: #696E79;
+        border-right: 1px solid #d4d5d9;
+        padding-right: 5px;
+      }
+      .couponDetails {
+        cursor: pointer;
+        float: right;
+        font-weight: 800;
+        color: #526cd0;
+      }
+    }
+  }
+  
+  .totalorder{
+    right: 61px !important;
+    position: absolute !important;
+  }
+  
+  
+  
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  
+  .dropdown-menu.show {
+    padding-left: 10px;
+  }

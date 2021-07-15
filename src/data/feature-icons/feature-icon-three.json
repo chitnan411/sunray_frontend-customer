@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/icons/free_ship.svg",
+    "title": "Free Shipping",
+    "subtitle": "Free shipping on your first order"
+  },
+  {
+    "id": 2,
+    "image": "/assets/icons/support.svg",
+    "title": "Support 24/7",
+    "subtitle": "Free shipping on all order"
+  },
+  {
+    "id": 3,
+    "image": "/assets/icons/refunds.svg",
+    "title": "Money Return",
+    "subtitle": "Free shipping on all order"
+  },
+  {
+    "id": 4,
+    "image": "/assets/icons/genuine_pros.svg",
+    "title": "Order Discount",
+    "subtitle": "Free shipping on all order"
+  }
+]

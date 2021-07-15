@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ITCAvantGardeStd-Md';
+  src: url('ITCAvantGardeStd-Md.eot');
+  src: url('ITCAvantGardeStd-Md.eot?#iefix') format('embedded-opentype'),
+       url('ITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md') format('svg'),
+       url('ITCAvantGardeStd-Md.ttf') format('truetype'),
+       url('ITCAvantGardeStd-Md.woff') format('woff'),
+       url('ITCAvantGardeStd-Md.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

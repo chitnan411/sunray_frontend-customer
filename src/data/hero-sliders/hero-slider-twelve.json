@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Your safety is our first priority",
+    "image": "https://i.ibb.co/KDnK1NZ/front-view-male-student-red-t-shirt-wearing-backpack-black-sterile-mask-holding-copybook-files-blue.jpg",
+    "url": "/products"
+  },
+  {
+    "id": 2,
+    "subtitle": "Back to School",
+    "text": "From fun to everything",
+    "image": "https://flone.reactdemo.hasthemes.com/assets/img/slider/slider-24.jpg",
+    "url": "/products"
+  },
+  {
+    "id": 3,
+    "title": "Your safety is our first priority",
+    "image": "https://i.ibb.co/FXLcwVd/stationery-art-items-copy-space-canvas.jpg",
+    "url": "/products"
+  },
+  {
+    "id": 4,
+    "title": "Your safety is our first priority",
+    "subtitle": "Back to School",
+    "image": "https://i.ibb.co/nr0B02w/flat-lay-desk-calendar-with-blue-office-accessories.jpg",
+    "url": "/contact"
+  }
+]

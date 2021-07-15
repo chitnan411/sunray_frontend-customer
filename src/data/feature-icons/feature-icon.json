@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "image": "https://sunraybucket.s3.ap-south-1.amazonaws.com/free_ship.svg",
+    "title": "Stationery at your doorstep"
+  },
+  {
+    "id": 2,
+    "image": "https://sunraybucket.s3.ap-south-1.amazonaws.com/support.svg",
+    "title": "All safety measures and sanitisation taken care Of"
+  },
+  {
+    "id": 3,
+    "image": "https://sunraybucket.s3.ap-south-1.amazonaws.com/refunds.svg",
+    "title": "Stationery at best price"
+  },
+  {
+    "id": 4,
+    "image": "https://sunraybucket.s3.ap-south-1.amazonaws.com/genuine_pros.svg",
+    "title": "Easy to order and contact us"
+  }
+]

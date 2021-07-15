@@ -1,0 +1,217 @@
+/*------ 24. login register Page  --------*/
+
+.login-register-wrapper {
+  .login-register-tab-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    .nav-item {
+      position: relative;
+      a {
+        background: none;
+        padding: 0;
+
+        h4 {
+          font-size: 25px;
+          font-weight: 700;
+          margin: 0 20px;
+          text-transform: capitalize;
+          transition: all 0.3s ease 0s;
+        }
+        &:last-child::before {
+          display: none;
+        }
+      }
+      a.active h4 {
+        color: $theme-color;
+      }
+
+      &:before {
+        background-color: #454545;
+        bottom: 5px;
+        content: "";
+        height: 18px;
+        margin: 0 auto;
+        position: absolute;
+        right: -2px;
+        transition: all 0.4s ease 0s;
+        width: 1px;
+      }
+
+      &:last-child {
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+  .login-form-container {
+    background: transparent none repeat scroll 0 0;
+    //box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    //padding: 80px;
+    padding: 2rem 1rem;
+    text-align: left;
+    @media #{$lg-layout} {
+      padding: 27px 0px;
+    }
+    @media #{$xs-layout} {
+      padding: 40px 15px;
+    }
+    .login-register-form {
+      .ss-input-has-error:focus{
+        box-shadow: none !important;
+      }
+      form {
+        input {
+          //background-color: #f3f3f3;
+          background-color: #fff;
+          border: 1.5px solid $text-dark;
+          color: $text-dark;
+          font-size: 14px;
+          height: 45px;
+          margin-bottom: 30px;
+          padding: 0 15px;
+        }
+        input[type="checkbox"] {
+          height: 15px;
+          margin: 0;
+          position: relative;
+          top: 1px;
+          width: 17px;
+        }
+        .button-box {
+          .login-toggle-btn {
+            padding: 10px 0 19px;
+            label {
+              color: #242424;
+              font-size: 15px;
+              font-weight: 400;
+              @media #{$xs-layout} {
+                font-size: 14px;
+              }
+            }
+            a {
+              color: #242424;
+              float: right;
+              font-size: 15px;
+              @media #{$xs-layout} {
+                font-size: 14px;
+              }
+              transition: all 0.3s ease 0s;
+              &:hover {
+                color: $theme-color;
+              }
+            }
+          }
+          button {
+            //background-color: #f2f2f2;
+            //color: #333;
+            width: 80%;
+            border-radius: .3rem;
+            background-color: $text-dark;
+            color: #fff;
+            border: medium none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            transition: all 0.3s ease 0s;
+            &:hover {
+              background-color: $theme-color;
+              color: #fff;
+            }
+          }
+        }
+        .ss-signin-divider{
+          div{
+            text-align: center;
+            .ss-signup-outlined{
+              width: 90%;
+              background-color: #fff;
+              color: $text-dark;
+              font-weight: 500;
+              line-height: 1;
+              padding: 11px 30px;
+              text-transform: uppercase;
+              transition: all 0.3s ease 0s;
+              //&:hover {
+              //  background-color: $text-dark;
+              //  color: #fff;
+              //}
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.login-register-area {
+  min-height: 100%;
+  @media #{$xs-layout} {
+    &.pb-100 {
+      padding-bottom: 60px;
+    }
+  }
+}
+
+
+.ss-forgot-password-form{
+  h5 {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  h5:before,
+  h5:after {
+    background-color: #dbdbdb;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+  h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+}
+
+.cr-not-allowed{
+  cursor: not-allowed !important;
+}
+
+button.w-50.resend-rs-link.btn.btn-secondary{
+  margin-top: .5rem !important;
+  width: 80%;
+  border-radius: .3rem;
+  background-color: #012835;
+  color: #fff;
+  border: medium none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+button.w-50.resend-rs-link.btn.btn-secondary:hover{
+  background-color: #06A4F0;
+  color: #fff;
+}
+
+button.w-50.resend-rs-link.btn.btn-secondary:focus{
+  box-shadow: none !important;
+}
+
