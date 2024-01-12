@@ -1,8 +1,6 @@
 import {
-  checkFieldAvailability,
-  emailAvailability, isObjectEmpty, isNotEmptyObject,
-  justStrings, maxNumber,
-  minMax, minMaxNumbers,
+  emailAvailability,
+  justStrings,
   validateEmail,
   validatePassword, emailAvailabilityForNewUser, validatePhone
 } from "../commonUtils.js";
